@@ -15,7 +15,7 @@ console.log(fruits);
 const arr1 = ['A', 'B', 'C']
 const arr2 = ['X', 'Y', 'Z']
 
-let array = [`${arr1},${arr2}`]
+let array = [...arr1,...arr2]
 console.log(array);
 
 // Object III 
